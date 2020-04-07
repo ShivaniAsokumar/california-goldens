@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Sets a default background color and font-size */
+body {
+	font-family: 'ABeeZee', sans-serif;
+	background-color: #c6f5f0;
+
+	box-sizing: border-box;
+}
+
+#title {
+	background-color: #75cac3;
+	color: #105e62;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 50px;
+}
+/* Header of the page*/
+#main-header {
+	color: #105e62;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 200px;
+	margin-block-end: 0;
+	margin-block-start: 0;
+	padding-top: 15px;
+	height: 130px;
+	background-color: #75cac3;
+}
+
+/* Main Flex Container that holds the flex items*/
+#main-flex-container {
+	display: flex;
+
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+
+/* Contains the different flex items */
+#main-flex-container div {
+	text-align: center;
+	background-color: #105e62;
+	flex: 1;
+	height: 40px;
+
+	font-size: 20px;
+}
+
+/* Flex Box Items*/
+.navbar {
+	padding-top: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+/* Navigation Bar Links */
+.navbar a {
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+}
+
+form {
+	text-align: center;
+	/* padding-top: 20px; */
+	color: #105e62;
+	font-size: 25px;
+	padding: 20px;
+}
+
+#submit {
+	font-size: 20px;
+	color: white;
+	background-color: #105e62;
+	border: none;
+	padding: 10px;
+	border-radius: 10px;
+}
